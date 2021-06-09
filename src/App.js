@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
+import Chat from "./components/Chat/Chat";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img
+        id="logo"
+        src="https://images.squarespace-cdn.com/content/5b7c84ac55b02cf2b54d4c30/1603394018804-X0LRAPZUSLL13T4TFIGN/JPEG+Hi-Marley-Logo-092820-RGB_Marley-Red-White-2-Color.png?format=1500w&content-type=image%2Fpng"
+        alt="hi Marley"
+      />
+      <Chat />
     </div>
   );
 }
